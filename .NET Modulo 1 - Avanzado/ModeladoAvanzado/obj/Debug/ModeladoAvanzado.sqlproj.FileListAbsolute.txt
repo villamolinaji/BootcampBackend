@@ -1,0 +1,6 @@
+C:\Lemoncode\BootcampBackend_MyCode\.NET Modulo 1 - Avanzado\ModeladoAvanzado\bin\Debug\ModeladoAvanzado.dacpac
+C:\Lemoncode\BootcampBackend_MyCode\.NET Modulo 1 - Avanzado\ModeladoAvanzado\obj\Debug\ModeladoAvanzado.sqlproj.AssemblyReference.cache
+C:\Lemoncode\BootcampBackend_MyCode\.NET Modulo 1 - Avanzado\ModeladoAvanzado\obj\Debug\ModeladoAvanzado.dll
+C:\Lemoncode\BootcampBackend_MyCode\.NET Modulo 1 - Avanzado\ModeladoAvanzado\obj\Debug\ModeladoAvanzado.pdb
+C:\Lemoncode\BootcampBackend_MyCode\.NET Modulo 1 - Avanzado\ModeladoAvanzado\bin\Debug\ModeladoAvanzado.dll
+C:\Lemoncode\BootcampBackend_MyCode\.NET Modulo 1 - Avanzado\ModeladoAvanzado\bin\Debug\ModeladoAvanzado.pdb

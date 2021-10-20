@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[CursoAutor]
+(
+	CursoAutorId INT NOT NULL IDENTITY(1, 1) PRIMARY KEY,
+	CursoId INT NOT NULL,
+	AutorId INT NOT NULL,
+	FOREIGN KEY(CursoId) REFERENCES Curso(CursoId),
+	FOREIGN KEY(AutorId) REFERENCES Autor(AutorId)
+)

@@ -1,0 +1,77 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Area]
+       [dbo].[Autor]
+       [dbo].[Curso]
+       [dbo].[CursoAutor]
+       [dbo].[Leccion]
+       [dbo].[Subscripcion]
+       [dbo].[SubscripcionUsuario]
+       [dbo].[SubscripcionVideo]
+       [dbo].[Tag]
+       [dbo].[TagCurso]
+       [dbo].[TagVideo]
+       [dbo].[Usuario]
+       [dbo].[Video]
+       [dbo].[Visualizacion]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Area] (Foreign Key)
+       unnamed constraint on [dbo].[Curso] (Foreign Key)
+       unnamed constraint on [dbo].[CursoAutor] (Foreign Key)
+       unnamed constraint on [dbo].[CursoAutor] (Foreign Key)
+       unnamed constraint on [dbo].[Leccion] (Foreign Key)
+       unnamed constraint on [dbo].[TagCurso] (Foreign Key)
+       unnamed constraint on [dbo].[Leccion] (Foreign Key)
+       unnamed constraint on [dbo].[SubscripcionUsuario] (Foreign Key)
+       unnamed constraint on [dbo].[SubscripcionVideo] (Foreign Key)
+       unnamed constraint on [dbo].[SubscripcionUsuario] (Foreign Key)
+       unnamed constraint on [dbo].[SubscripcionVideo] (Foreign Key)
+       unnamed constraint on [dbo].[TagCurso] (Foreign Key)
+       unnamed constraint on [dbo].[TagVideo] (Foreign Key)
+       unnamed constraint on [dbo].[TagVideo] (Foreign Key)
+       unnamed constraint on [dbo].[Visualizacion] (Foreign Key)
+       unnamed constraint on [dbo].[Visualizacion] (Foreign Key)
+     Table rebuild
+       [dbo].[Area] (Table)
+       [dbo].[Autor] (Table)
+       [dbo].[Curso] (Table)
+       [dbo].[CursoAutor] (Table)
+       [dbo].[Leccion] (Table)
+       [dbo].[Subscripcion] (Table)
+       [dbo].[SubscripcionUsuario] (Table)
+       [dbo].[SubscripcionVideo] (Table)
+       [dbo].[Tag] (Table)
+       [dbo].[TagCurso] (Table)
+       [dbo].[TagVideo] (Table)
+       [dbo].[Usuario] (Table)
+       [dbo].[Video] (Table)
+       [dbo].[Visualizacion] (Table)
+
+** Supporting actions
+     Create
+       Foreign Key: unnamed constraint on [dbo].[Area] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Curso] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[CursoAutor] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[CursoAutor] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Leccion] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[TagCurso] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Leccion] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[SubscripcionUsuario] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[SubscripcionVideo] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[SubscripcionUsuario] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[SubscripcionVideo] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[TagCurso] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[TagVideo] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[TagVideo] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Visualizacion] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Visualizacion] (Foreign Key)
+     Refresh
+       [dbo].[vAreaPrincipal] (View)

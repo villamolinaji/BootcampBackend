@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Area]
+(
+	AreaId INT NOT NULL IDENTITY(1, 1) PRIMARY KEY,
+	AreaPadreId INT NULL,
+	AreaNombre NVARCHAR(50) NOT NULL,
+	FOREIGN KEY(AreaPadreId) REFERENCES Area(AreaId)
+)

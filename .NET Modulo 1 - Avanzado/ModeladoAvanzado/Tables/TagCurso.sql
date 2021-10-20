@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[TagCurso]
+(
+	TagCursoId INT NOT NULL IDENTITY(1, 1) PRIMARY KEY,
+	TagId INT NOT NULL,
+	CursoId INT NOT NULL,
+	FOREIGN KEY (TagId) REFERENCES Tag(TagId),
+	FOREIGN KEY (CursoId) REFERENCES Curso(CursoId),
+)

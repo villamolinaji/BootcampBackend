@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Autor]
+(
+	AutorId INT NOT NULL IDENTITY(1, 1) PRIMARY KEY,
+	Nombre NVARCHAR(200) NOT NULL,
+	Descripcion NVARCHAR(MAX) NOT NULL,
+	Twitter NVARCHAR(500),
+	GitHub NVARCHAR(500)
+)

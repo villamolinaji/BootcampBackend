@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[Leccion]
+(
+	LeccionId INT NOT NULL IDENTITY(1, 1) PRIMARY KEY,
+	CursoId INT NOT NULL,
+	VideoId INT NOT NULL,
+	TextoURL NVARCHAR(500) NOT NULL,
+	FechaPublicacion DATETIME NOT NULL,
+	FOREIGN KEY (CursoId) REFERENCES Curso(CursoId),
+	FOREIGN KEY (VideoId) REFERENCES Video(VideoId)
+)
